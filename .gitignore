@@ -20,7 +20,6 @@ camera_test.py
 Thumbs.db
 
 # Model checkpoints and runtime artifacts
-*.h5
 *.keras
 *.pt
 *.pkl
@@ -28,3 +27,6 @@ Thumbs.db
 *.jpg
 *.jpeg
 *.mp4
+
+# Keep the trained emotion model tracked for runtime use
+!emotion_model.h5
